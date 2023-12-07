@@ -10,18 +10,39 @@ header {
     align-items: center;
 }
 
+
+img{
+    width: 145px;
+    height: 145px;
+}
+
+nav{
+    position: relative;
+    right: -75vw;
+
+}
+ul {
+    gap: 15px;
+    display: inline-flex;
+}
 video {
     width: 100%;
     height: auto;
 }
 
-ul {
-    display: inline-flex;
-}
-
 button {
-    border-radius: 15px;
-    background: #93B1A6;
-    width: 100px;
+    font-family: 'Trebuchet MS';
+    font-size: large;
+    color: white;
+    background: transparent;
+    width: 120px;
     height: 50px;
+    border: none;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: .3s
+}
+.header_li button:hover{
+    transition: .3s ease-in;
+    border-bottom: 2px solid #F4C524;
 }
